@@ -60,7 +60,7 @@ export class News extends Component {
         this.setState({
            
             loading:true
-            })
+            }) 
         let data= await fetch(url);
         let parseData = await data.json()
         console.log(parseData)
